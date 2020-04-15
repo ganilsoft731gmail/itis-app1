@@ -1,0 +1,222 @@
+index.js:2178 Warning: Cannot update during an existing state transition (such as within `render` or another component's constructor). Render methods should be a pure function of props and state; constructor side-effects are an anti-pattern, but can be moved to `componentWillMount`.
+__stack_frame_overlay_proxy_console__ @ index.js:2178
+printWarning @ warning.js:33
+warning @ warning.js:57
+warnAboutInvalidUpdates @ react-dom.development.js:15222
+scheduleWork$1 @ react-dom.development.js:16186
+enqueueSetState @ react-dom.development.js:11299
+./node_modules/react/cjs/react.development.js.Component.setState @ react.development.js:270
+Counter._this.handleIncrement @ counter.jsx:9
+render @ counter.jsx:17
+finishClassComponent @ react-dom.development.js:13193
+updateClassComponent @ react-dom.development.js:13155
+beginWork @ react-dom.development.js:13824
+performUnitOfWork @ react-dom.development.js:15863
+workLoop @ react-dom.development.js:15902
+renderRoot @ react-dom.development.js:15942
+performWorkOnRoot @ react-dom.development.js:16560
+performWork @ react-dom.development.js:16482
+performSyncWork @ react-dom.development.js:16454
+requestWork @ react-dom.development.js:16354
+scheduleWork$1 @ react-dom.development.js:16218
+scheduleRootUpdate @ react-dom.development.js:16785
+updateContainerAtExpirationTime @ react-dom.development.js:16812
+updateContainer @ react-dom.development.js:16839
+./node_modules/react-dom/cjs/react-dom.development.js.ReactRoot.render @ react-dom.development.js:17122
+(anonymous) @ react-dom.development.js:17262
+unbatchedUpdates @ react-dom.development.js:16679
+legacyRenderSubtreeIntoContainer @ react-dom.development.js:17258
+render @ react-dom.development.js:17317
+./src/index.js @ index.js:9
+__webpack_require__ @ bootstrap 84f792bab2a0c2afb1cf:678
+fn @ bootstrap 84f792bab2a0c2afb1cf:88
+0 @ registerServiceWorker.js:117
+__webpack_require__ @ bootstrap 84f792bab2a0c2afb1cf:678
+./node_modules/ansi-regex/index.js.module.exports @ bootstrap 84f792bab2a0c2afb1cf:724
+(anonymous) @ bootstrap 84f792bab2a0c2afb1cf:724
+invariant.js:42 Uncaught Error: Maximum update depth exceeded. This can happen when a component repeatedly calls setState inside componentWillUpdate or componentDidUpdate. React limits the number of nested updates to prevent infinite loops.
+    at invariant (invariant.js:42)
+    at scheduleWork$1 (react-dom.development.js:16221)
+    at Object.enqueueSetState (react-dom.development.js:11299)
+    at Counter../node_modules/react/cjs/react.development.js.Component.setState (react.development.js:270)
+    at Counter._this.handleIncrement (counter.jsx:9)
+    at Counter.render (counter.jsx:17)
+    at finishClassComponent (react-dom.development.js:13193)
+    at updateClassComponent (react-dom.development.js:13155)
+    at beginWork (react-dom.development.js:13824)
+    at performUnitOfWork (react-dom.development.js:15863)
+    at workLoop (react-dom.development.js:15902)
+    at HTMLUnknownElement.callCallback (react-dom.development.js:100)
+    at Object.invokeGuardedCallbackDev (react-dom.development.js:138)
+    at invokeGuardedCallback (react-dom.development.js:187)
+    at replayUnitOfWork (react-dom.development.js:15310)
+    at renderRoot (react-dom.development.js:15962)
+    at performWorkOnRoot (react-dom.development.js:16560)
+    at performWork (react-dom.development.js:16482)
+    at performSyncWork (react-dom.development.js:16454)
+    at requestWork (react-dom.development.js:16354)
+    at scheduleWork$1 (react-dom.development.js:16218)
+    at scheduleRootUpdate (react-dom.development.js:16785)
+    at updateContainerAtExpirationTime (react-dom.development.js:16812)
+    at updateContainer (react-dom.development.js:16839)
+    at ReactRoot../node_modules/react-dom/cjs/react-dom.development.js.ReactRoot.render (react-dom.development.js:17122)
+    at react-dom.development.js:17262
+    at unbatchedUpdates (react-dom.development.js:16679)
+    at legacyRenderSubtreeIntoContainer (react-dom.development.js:17258)
+    at Object.render (react-dom.development.js:17317)
+    at Object../src/index.js (index.js:9)
+    at __webpack_require__ (bootstrap 84f792bab2a0c2afb1cf:678)
+    at fn (bootstrap 84f792bab2a0c2afb1cf:88)
+    at Object.0 (registerServiceWorker.js:117)
+    at __webpack_require__ (bootstrap 84f792bab2a0c2afb1cf:678)
+    at ./node_modules/ansi-regex/index.js.module.exports (bootstrap 84f792bab2a0c2afb1cf:724)
+    at bootstrap 84f792bab2a0c2afb1cf:724
+invariant @ invariant.js:42
+scheduleWork$1 @ react-dom.development.js:16221
+enqueueSetState @ react-dom.development.js:11299
+./node_modules/react/cjs/react.development.js.Component.setState @ react.development.js:270
+Counter._this.handleIncrement @ counter.jsx:9
+render @ counter.jsx:17
+finishClassComponent @ react-dom.development.js:13193
+updateClassComponent @ react-dom.development.js:13155
+beginWork @ react-dom.development.js:13824
+performUnitOfWork @ react-dom.development.js:15863
+workLoop @ react-dom.development.js:15902
+callCallback @ react-dom.development.js:100
+invokeGuardedCallbackDev @ react-dom.development.js:138
+invokeGuardedCallback @ react-dom.development.js:187
+replayUnitOfWork @ react-dom.development.js:15310
+renderRoot @ react-dom.development.js:15962
+performWorkOnRoot @ react-dom.development.js:16560
+performWork @ react-dom.development.js:16482
+performSyncWork @ react-dom.development.js:16454
+requestWork @ react-dom.development.js:16354
+scheduleWork$1 @ react-dom.development.js:16218
+scheduleRootUpdate @ react-dom.development.js:16785
+updateContainerAtExpirationTime @ react-dom.development.js:16812
+updateContainer @ react-dom.development.js:16839
+./node_modules/react-dom/cjs/react-dom.development.js.ReactRoot.render @ react-dom.development.js:17122
+(anonymous) @ react-dom.development.js:17262
+unbatchedUpdates @ react-dom.development.js:16679
+legacyRenderSubtreeIntoContainer @ react-dom.development.js:17258
+render @ react-dom.development.js:17317
+./src/index.js @ index.js:9
+__webpack_require__ @ bootstrap 84f792bab2a0c2afb1cf:678
+fn @ bootstrap 84f792bab2a0c2afb1cf:88
+0 @ registerServiceWorker.js:117
+__webpack_require__ @ bootstrap 84f792bab2a0c2afb1cf:678
+./node_modules/ansi-regex/index.js.module.exports @ bootstrap 84f792bab2a0c2afb1cf:724
+(anonymous) @ bootstrap 84f792bab2a0c2afb1cf:724
+index.js:2178 The above error occurred in the <Counter> component:
+    in Counter (at index.js:9)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://fb.me/react-error-boundaries to learn more about error boundaries.
+__stack_frame_overlay_proxy_console__ @ index.js:2178
+logCapturedError @ react-dom.development.js:14226
+logError @ react-dom.development.js:14265
+update.callback @ react-dom.development.js:14918
+callCallback @ react-dom.development.js:10878
+commitUpdateQueue @ react-dom.development.js:10922
+commitLifeCycles @ react-dom.development.js:14396
+commitAllLifeCycles @ react-dom.development.js:15462
+callCallback @ react-dom.development.js:100
+invokeGuardedCallbackDev @ react-dom.development.js:138
+invokeGuardedCallback @ react-dom.development.js:187
+commitRoot @ react-dom.development.js:15603
+completeRoot @ react-dom.development.js:16618
+performWorkOnRoot @ react-dom.development.js:16563
+performWork @ react-dom.development.js:16482
+performSyncWork @ react-dom.development.js:16454
+requestWork @ react-dom.development.js:16354
+scheduleWork$1 @ react-dom.development.js:16218
+scheduleRootUpdate @ react-dom.development.js:16785
+updateContainerAtExpirationTime @ react-dom.development.js:16812
+updateContainer @ react-dom.development.js:16839
+./node_modules/react-dom/cjs/react-dom.development.js.ReactRoot.render @ react-dom.development.js:17122
+(anonymous) @ react-dom.development.js:17262
+unbatchedUpdates @ react-dom.development.js:16679
+legacyRenderSubtreeIntoContainer @ react-dom.development.js:17258
+render @ react-dom.development.js:17317
+./src/index.js @ index.js:9
+__webpack_require__ @ bootstrap 84f792bab2a0c2afb1cf:678
+fn @ bootstrap 84f792bab2a0c2afb1cf:88
+0 @ registerServiceWorker.js:117
+__webpack_require__ @ bootstrap 84f792bab2a0c2afb1cf:678
+./node_modules/ansi-regex/index.js.module.exports @ bootstrap 84f792bab2a0c2afb1cf:724
+(anonymous) @ bootstrap 84f792bab2a0c2afb1cf:724
+invariant.js:42 Uncaught Error: Maximum update depth exceeded. This can happen when a component repeatedly calls setState inside componentWillUpdate or componentDidUpdate. React limits the number of nested updates to prevent infinite loops.
+    at invariant (invariant.js:42)
+    at scheduleWork$1 (react-dom.development.js:16221)
+    at Object.enqueueSetState (react-dom.development.js:11299)
+    at Counter../node_modules/react/cjs/react.development.js.Component.setState (react.development.js:270)
+    at Counter._this.handleIncrement (counter.jsx:9)
+    at Counter.render (counter.jsx:17)
+    at finishClassComponent (react-dom.development.js:13193)
+    at updateClassComponent (react-dom.development.js:13155)
+    at beginWork (react-dom.development.js:13824)
+    at performUnitOfWork (react-dom.development.js:15863)
+    at workLoop (react-dom.development.js:15902)
+    at renderRoot (react-dom.development.js:15942)
+    at performWorkOnRoot (react-dom.development.js:16560)
+    at performWork (react-dom.development.js:16482)
+    at performSyncWork (react-dom.development.js:16454)
+    at requestWork (react-dom.development.js:16354)
+    at scheduleWork$1 (react-dom.development.js:16218)
+    at scheduleRootUpdate (react-dom.development.js:16785)
+    at updateContainerAtExpirationTime (react-dom.development.js:16812)
+    at updateContainer (react-dom.development.js:16839)
+    at ReactRoot../node_modules/react-dom/cjs/react-dom.development.js.ReactRoot.render (react-dom.development.js:17122)
+    at react-dom.development.js:17262
+    at unbatchedUpdates (react-dom.development.js:16679)
+    at legacyRenderSubtreeIntoContainer (react-dom.development.js:17258)
+    at Object.render (react-dom.development.js:17317)
+    at Object../src/index.js (index.js:9)
+    at __webpack_require__ (bootstrap 84f792bab2a0c2afb1cf:678)
+    at fn (bootstrap 84f792bab2a0c2afb1cf:88)
+    at Object.0 (registerServiceWorker.js:117)
+    at __webpack_require__ (bootstrap 84f792bab2a0c2afb1cf:678)
+    at ./node_modules/ansi-regex/index.js.module.exports (bootstrap 84f792bab2a0c2afb1cf:724)
+    at bootstrap 84f792bab2a0c2afb1cf:724
+invariant @ invariant.js:42
+scheduleWork$1 @ react-dom.development.js:16221
+enqueueSetState @ react-dom.development.js:11299
+./node_modules/react/cjs/react.development.js.Component.setState @ react.development.js:270
+Counter._this.handleIncrement @ counter.jsx:9
+render @ counter.jsx:17
+finishClassComponent @ react-dom.development.js:13193
+updateClassComponent @ react-dom.development.js:13155
+beginWork @ react-dom.development.js:13824
+performUnitOfWork @ react-dom.development.js:15863
+workLoop @ react-dom.development.js:15902
+renderRoot @ react-dom.development.js:15942
+performWorkOnRoot @ react-dom.development.js:16560
+performWork @ react-dom.development.js:16482
+performSyncWork @ react-dom.development.js:16454
+requestWork @ react-dom.development.js:16354
+scheduleWork$1 @ react-dom.development.js:16218
+scheduleRootUpdate @ react-dom.development.js:16785
+updateContainerAtExpirationTime @ react-dom.development.js:16812
+updateContainer @ react-dom.development.js:16839
+./node_modules/react-dom/cjs/react-dom.development.js.ReactRoot.render @ react-dom.development.js:17122
+(anonymous) @ react-dom.development.js:17262
+unbatchedUpdates @ react-dom.development.js:16679
+legacyRenderSubtreeIntoContainer @ react-dom.development.js:17258
+render @ react-dom.development.js:17317
+./src/index.js @ index.js:9
+__webpack_require__ @ bootstrap 84f792bab2a0c2afb1cf:678
+fn @ bootstrap 84f792bab2a0c2afb1cf:88
+0 @ registerServiceWorker.js:117
+__webpack_require__ @ bootstrap 84f792bab2a0c2afb1cf:678
+./node_modules/ansi-regex/index.js.module.exports @ bootstrap 84f792bab2a0c2afb1cf:724
+(anonymous) @ bootstrap 84f792bab2a0c2afb1cf:724
+webpackHotDevClient.js:138 ./src/index.js
+  Line 4:  'App' is defined but never used  no-unused-vars
+printWarnings @ webpackHotDevClient.js:138
+handleWarnings @ webpackHotDevClient.js:155
+./node_modules/react-dev-utils/webpackHotDevClient.js.connection.onmessage @ webpackHotDevClient.js:208
+./node_modules/sockjs-client/lib/event/eventtarget.js.EventTarget.dispatchEvent @ eventtarget.js:51
+(anonymous) @ main.js:274
+./node_modules/sockjs-client/lib/main.js.SockJS._transportMessage @ main.js:272
+./node_modules/sockjs-client/lib/event/emitter.js.EventEmitter.emit @ emitter.js:50
+WebSocketTransport.ws.onmessage @ websocket.js:35
